@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>于归 天堂信箱</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/交互界面.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Knight - v2.1.0
+  * Template URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container">
+
+      <!-- The main logo is shown in mobile version only. The centered nav-logo in nav menu is displayed in desktop view  -->
+      <div class="logo d-block d-lg-none">
+        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul class="nav-inner">
+          <li class="active"><a href="死亡体验.html">死亡体验</a></li>
+
+          <li><a href="器官捐献.html">器官捐献</a></li>
+
+          <li class="nav-logo"><a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a></li>
+
+          <li><a href="作品推荐.html">作品推荐</a></li>
+          <li><a href="天堂信箱.html">天堂信箱</a></li>
+
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+  <!-- ======= 天堂信箱 Section ======= -->
+  <section id="contact" class="contact section-bg">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>天堂信箱</h2>
+        <p>把这一封信，寄给天堂的TA</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-2">
+          <div class="info d-flex flex-column justify-content-center php-email-form xinxiang1" data-aos="fade-right">
+            <div class="address">
+              <div class="text-center"><button onclick="show1()">写信</button></div>
+            </div>
+
+            <div class="email">
+              <div class="text-center"><button onclick="show2()">已发送</button></div>
+            </div>
+
+            <div class="phone">
+              <div class="text-center"><button onclick="show3()">收件箱</button></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-10 mt-5 mt-lg-0">
+
+          <div class="aboxa">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-left">
+            <div class="form-row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="jijianname" placeholder="寄件人" />
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="text" class="form-control" name="email" id="jijianemail" placeholder="寄件人地址" />
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="shoujianname" placeholder="收件人" />
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="text" class="form-control" name="email" id="shoujianemail" placeholder="收件人地址" />
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-4 form-group">
+                <input type="text" name="name" class="form-control" id="nian" placeholder="年" />
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-4 form-group">
+                <input type="text" class="form-control" name="email" id="yue" placeholder="月" />
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-4 form-group">
+                <input type="text" class="form-control" name="email" id="ri" placeholder="日" />
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" id="xin" rows="5" data-rule="required" data-msg="信件已寄出❤" placeholder="将你想说的话写下..."></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="text-center"><button onclick="send()">发送</button></div>
+          </form>
+        </div>
+
+        <div class="aboxa">
+          <div class="accordion-list info">
+            <ul id="yifasong">
+              <li>
+                <a data-toggle="collapse" class="collapse" href="#accordion-list-1"><span>2021年06月25日</span> From 小明 To 爷爷  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="accordion-list-1" class="collapse show" data-parent=".accordion-list">
+                  <p>
+                    爷爷，我是小明，昨天突然梦到了你，好想你！所以就想在这个网站上写一封信给你，高考成绩出来了，我考上了我最喜欢的大学！小的时候你一直跟我说要努力学习，我现在做到了哦，好想听你夸夸我，但是没有办法再见到你了，有点小伤心呀～
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#accordion-list-2" class="collapsed"><span>2021年11月09日</span> From 小明 To 亮亮 <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="accordion-list-2" class="collapse" data-parent=".accordion-list">
+                  <p>
+                    嘿！你最近过得好吗！我的朋友亮亮，没有你跟我拌嘴的日子真的过的好慢！现在的你应该不会天天被病痛折磨了，你在天堂是不是也天天打游戏呀，排名不许超过我哦！
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#accordion-list-3" class="collapsed"><span>2022年04月17日</span> From 小明 To 小汪 <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="accordion-list-3" class="collapse" data-parent=".accordion-list">
+                  <p>
+                    亲爱的狗狗小汪，你在汪星过的还好吗？我和爸爸妈妈都非常想念你哦！我们今天一家三口去逛超市的时候还看到了你最爱的磨牙棒，突然就想起你当时跟我一起玩的时光了！希望你在汪星也要幸福哟！
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="aboxa">
+          <div class="accordion-list info">
+            <ul id="shoujianxiang">
+              <li>
+                <a data-toggle="collapse" class="collapse" href="#accordion-list-4"><span>2021年06月25日</span> From 爷爷 To 小明 <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="accordion-list-4" class="collapse show" data-parent=".accordion-list">
+                  <p>
+                    小明，你真的很棒！爷爷为你感到自豪。虽然爷爷现在不在你的身边，但是你也要继续保持对航空航天的热爱，如果有一天我们家小明成为了大科学家，那一定要造一做大飞船，坐着他到星星上见爷爷，爷爷就在最亮的那颗星星上等你！
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#accordion-list-5" class="collapsed"><span>2021年11月09日</span> From 亮亮 To 小明 <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="accordion-list-5" class="collapse" data-parent=".accordion-list">
+                  <p>
+                    想超过我？没门！我在哪里都是游戏大王哟！虽然我现在跟你在两个世界里，但你也不要太想我了，我现在生活的很好，每天都有很多很多好吃的，如果你想我了，那就多打几把游戏吧，不要太伤心哦～
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#accordion-list-6" class="collapsed"><span>2022年04月17日</span> From 小汪 To 小明 <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <div id="accordion-list-6" class="collapse" data-parent=".accordion-list">
+                  <p>
+                    汪汪汪！汪汪！汪汪汪汪汪汪汪！（AI翻译：亲爱的小主人，我在汪星活的很开心！你也要跟爸爸妈妈一直幸福下去哦，想我的时候可以多多看我们的照片～）
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Contact Section -->
+  <!-- ======= 留言板 Section ======= -->
+  <section id="contact" class="contact section-bg">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>留言板</h2>
+        <p>在这里，留下你对TA的思念</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-4">
+          <div class="info d-flex flex-column liuyan" data-aos="fade-right">
+            <div class="address">
+
+              <h4 style="padding:0 0 0 0px; text-align: center">即时评论</h4>
+              <ul id="olid" style="list-style-image: url(assets/img/交互界面/头像.png); margin:10px; height:250px; overflow-y:scroll;">
+                <li>  橘猫 ：无愧于生，无愧于亡，无愧于己！</li>
+                <li>  星空飞行员 ：原本因为宠物的离开很难过，看了您的观点感觉好了很多！谢谢您！</li>
+                <li>  狸 ：无愧于生，无愧于亡，无愧于己！</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-8 mt-5 mt-lg-0">
+          <div class="contact liuyanban">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-left">
+            <div class="form-row">
+              <div class="col-lg-6 form-group">
+                <input type="text" name="name" class="form-control" id="txtName" placeholder="昵称" />
+                <div class="validate"></div>
+              </div>
+            <div class="col-lg-12 form-group">
+              <textarea class="form-control" id="txtCom" name="message" rows="5" data-rule="required" data-msg="评论成功" placeholder="评论"></textarea>
+              <div class="validate"></div>
+            </div>
+           <div class="col-lg-12 text-center"><button onclick="comment()">发送</button></div>
+         </div>
+          </form>
+        </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Contact Section -->
+
+</main><!-- End #main -->
+<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+<!-- Vendor JS Files -->
+<script>
+    var num = 0
+function send(){
+    var $jijianname=document.getElementById("jijianname").value;
+    var $jijianemail=document.getElementById("jijianemail").value;
+    var $shoujianname=document.getElementById("shoujianname").value;
+    var $shoujianemail=document.getElementById("shoujianemail").value;
+    var $nian=document.getElementById("nian").value;
+    var $yue=document.getElementById("yue").value;
+    var $ri=document.getElementById("ri").value;
+    var $xin=document.getElementById("xin").value;
+
+    num++
+
+    blb = document.createElement("li");
+    blb.innerHTML = "<a data-toggle=\"collapse\" href=\"#accordion-list-a"+num+"\" class=\"collapsed\"><span>"+$nian+"年"+$yue+"月"+$ri+"日"+"</span> From "+$jijianname+" To "+$shoujianname+" <i class=\"bx bx-chevron-down icon-show\"></i><i class=\"bx bx-chevron-up icon-close\"></i></a><div id=\"accordion-list-a"+num+"\" class=\"collapse\" data-parent=\".accordion-list\"><p>"+$xin+"</p></div>";
+    document.getElementById('yifasong').appendChild(blb);
+
+    clc = document.createElement("li");
+    clc.innerHTML = "<a data-toggle=\"collapse\" href=\"#accordion-list-b"+num+"\" class=\"collapsed\"><span>"+$nian+"年"+$yue+"月"+$ri+"日"+"</span> From "+$shoujianname+" To "+$jijianname+" <i class=\"bx bx-chevron-down icon-show\"></i><i class=\"bx bx-chevron-up icon-close\"></i></a><div id=\"accordion-list-b"+num+"\" class=\"collapse\" data-parent=\".accordion-list\"><p>"+$jijianname+"，我也非常想念你。我在这边的生活过得还算不错喔，也有一直在关注着你。那些你独自努力奋斗勇敢成长的瞬间我都为你感到无比的骄傲和自豪。要请记得相信自己，相信世事千帆过，相信自己所追求的一切。想我的话就来这里写信给我，不管朝暮余晖，森林潮汐，山河烟火，也不论四季流转更迭交替，我会一直陪伴你，守护你。记得好好吃饭，好好生活。</p></div>";
+    document.getElementById('shoujianxiang').appendChild(clc);
+
+    document.getElementById("jijianname").value="";
+    document.getElementById("jijianemail").value="";
+    document.getElementById("shoujianname").value="";
+    document.getElementById("shoujianemail").value="";
+    document.getElementById("nian").value="";
+    document.getElementById("yue").value="";
+    document.getElementById("ri").value="";
+    document.getElementById("xin").value="";
+}
+</script>
+<script>
+   document.getElementsByClassName('aboxa')[0].style.display = "block"
+   document.getElementsByClassName('aboxa')[1].style.display = "none"
+   document.getElementsByClassName('aboxa')[2].style.display = "none"
+   function show1(){
+     document.getElementsByClassName('aboxa')[0].style.display = "block"
+     document.getElementsByClassName('aboxa')[1].style.display = "none"
+     document.getElementsByClassName('aboxa')[2].style.display = "none"
+   }
+   function show2(){
+     document.getElementsByClassName('aboxa')[0].style.display = "none"
+     document.getElementsByClassName('aboxa')[1].style.display = "block"
+     document.getElementsByClassName('aboxa')[2].style.display = "none"
+   }
+   function show3(){
+     document.getElementsByClassName('aboxa')[0].style.display = "none"
+     document.getElementsByClassName('aboxa')[1].style.display = "none"
+     document.getElementsByClassName('aboxa')[2].style.display = "block"
+   }
+</script>
+<script>
+    function comment(){
+    var $name=document.getElementById("txtName").value;
+    var $txtCoom=document.getElementById("txtCom").value;
+    var ele = document.createElement('li');
+    ele.textContent= "  " + $name + "  :  " + $txtCoom;
+    document.getElementById('olid').appendChild(ele);
+    document.getElementById("txtName").value="";
+    document.getElementById("txtCom").value="";
+    var ala = document.getElementById("olid");
+    if(ala.scrollHeight > ala.clientHeight) {
+    		ala.scrollTop = ala.scrollHeight;
+      }
+    }
+</script>
+
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+<script src="assets/vendor/venobox/venobox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>于归 死亡体验</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=PT+Sans+Narrow&family=ZCOOL+QingKe+HuangYou&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    <link href="死亡体验.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="font/icofont/icofont.min.css" rel="stylesheet">
+    <link href="font/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+    <script src="confirm.js"></script>
+</head>
+<body>
+<!--死亡体验-->
+<!--死亡体验 1-->
+<section id="experience1" class="time">
+  <div class="container">
+    <div class="divCss">
+  	<h1>花落某一天</br>在最后一日的 <input id="Time" type="number" placeholder="输入24小时制" oninput="if(value>24)value=24"/> 时</br>你坦然归还生命 <h1>
+    </div>
+  </div>
+</section>
+<!--死亡体验 2-->
+<section id="experience2" class="location">
+  <div class="container">
+    <div class="divCss">
+  	<h1>身在 <input id="Location" type="text" placeholder="请输入地点"> ，最后一眼看到的世界<h1>
+    </div>
+  </div>
+</section>
+<!--死亡体验 3-->
+<section id="experience3" class="cloth">
+  <div class="container">
+    <div class="divCss">
+  	<h1>平静从容的仪式感</br>身穿 <input id="Cloth" type="text" placeholder="例：白色毛衣和牛仔裤"> </br>微笑迎接死亡 <h1>
+    </div>
+  </div>
+</section>
+<!--死亡体验 4-->
+<section id="experience4" class="time">
+  <div class="container">
+    <div class="divCss">
+  	<h1>生命走到尽头</br>还有很多话想说</br>很多心愿没有实现</br>假如生命只剩下三天</br>你想</br></br><input id="todo1" type="text" placeholder="to do 1"></br><input id="todo2" type="text" placeholder="to do 2"></br><input id="todo3" type="text" placeholder="to do 3"><h1>
+    </div>
+  </div>
+</section>
+<!--死亡体验 5-->
+<section id="experience5" class="heritage">
+    <div class="container">
+      <div class="row">
+  <input id="Heritage" type="text" placeholder="遗产内容+继承人">
+  <!--div class="container">
+      <table cellpadding="10">
+        <div class="row">
+    <tr>
+      <th><input id="Heritage1" type="text" placeholder="遗产内容"></th>
+      <th><input id="Heritage2" type="text" placeholder="遗产内容"></th>
+      <th><input id="Heritage3" type="text" placeholder="遗产内容"></th>
+      <th><input id="Heritage4" type="text" placeholder="遗产内容"></th>
+    </tr>
+  </div>
+  <div class="row">
+    <tr>
+      <th><input id="Heritage5" type="text" placeholder="遗产内容"></th>
+      <th><input id="Heritage6" type="text" placeholder="继承人"></th>
+      <th><input id="Heritage7" type="text" placeholder="遗产内容"></th>
+      <th><input id="Heritage8" type="text" placeholder="继承人"></th>
+    </tr>
+  </div>
+  </table>
+</div-->
+</div>
+</div>
+</section>
+<!--死亡体验 6-->
+<section id="experience6" class="deal">
+  <div class="container">
+    <div class="divCss">
+  	<h1>花落为泥</br>我们也有自己最终的归处</br>你选择将自己的遗体</br></br><input id="howDeal" type="text" placeholder="输入埋葬方式"><h1></br>
+    </div>
+  </div>
+</section>
+    <!--死亡体验 提交 -->
+<section id="result">
+   <div class="container">
+      <button onclick="MCK()">  点击获取死亡报告  </button>
+      <button onclick="back()">  返回首页  </button>
+    </div>
+    <div class="result1">
+      <div id="tst1"></div>
+    </div>
+    <div class="result2">
+      <div id="tst2"></div>
+    </div>
+    <div class="container" id="summary">
+      <p>蝴蝶也是朝生暮死的东西,可是依然为着它的色彩目眩神迷,觉着生命所有的神秘与极美,已在蜕变中彰显了全部的答案</br>而许多彩色的蝶正在纱帽山的谷底飞去又飞来,就这样我一年又一年的活了下来</br>只为了再生时蝴蝶的色彩</br>/三毛《雨季不再来》</p>
+    </div>
+</section>
+
+</body>
+</html>

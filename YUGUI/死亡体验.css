@@ -1,0 +1,311 @@
+@font-face {
+font-family: "huawen"; //自定义字体名称
+src: url(font/huawen.TTF) //存放字体文件的路径
+}
+
+
+input[type="number"] {
+    /*background-color: rgb(250, 255, 189);*/
+    background-color: #F5DEB3;
+    border: 4px;
+    border-radius: 5px;
+    padding-left: 1em;
+    width: 9em;
+    height: 1.6em;
+    margin-bottom: 1.4em;
+    font-size: 20px;
+}
+input[type="text"] {
+    background-color: #F5DEB3;
+    border: 4px;
+    border-radius: 5px;
+    padding-left: 1em;
+    width: 15em;
+    height: 4em;
+    margin-bottom: 1.4em;
+    font-size: 10px;
+}
+
+
+/*time--*/
+#experience1{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("image/time.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  position: relative;
+}
+#experience1 .container {
+  position: absolute;
+  bottom: 10px;
+  top: 500px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 15px;
+}
+#experience1 h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #543c13;
+  font-family: 'ZCOOL XiaoWei',serif;
+}
+
+/*location--*/
+#experience2{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("image/location.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  position: relative;
+}
+#experience2 .container {
+  position: absolute;
+  bottom: 10px;
+  top: 550px;
+  left: 10px;
+  right: 100px;
+  text-align: center;
+  padding: 0 15px;
+}
+#experience2 h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #543c13;
+  font-family: 'ZCOOL XiaoWei',serif;
+}
+#experience2 input[type="text"] {
+   background-color: #F5DEB3;
+   border: 4px;
+   border-radius: 5px;
+   padding-left: 1em;
+   width: 18em;
+   height: 4em;
+   margin-bottom: 1.4em;
+   font-size: 10px;
+}
+
+
+/*cloth--*/
+#experience3{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("image/cloth.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  position: relative;
+}
+#experience3 .container {
+  position: absolute;
+  bottom: 10px;
+  top: 450px;
+  left: 0;
+  right: 20px;
+  text-align: center;
+  padding: 0 15px;
+}
+#experience3 h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #543c13;
+  font-family: 'ZCOOL XiaoWei',serif;
+}
+#experience3 input[type="text"] {
+   background-color: #F5DEB3;
+   border: 4px;
+   border-radius: 5px;
+   padding-left: 1em;
+   width: 25em;
+   height: 4em;
+   margin-bottom: 1.4em;
+   font-size: 10px;
+}
+
+
+/*todo--*/
+#experience4{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("image/todo.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  position: relative;
+}
+#experience4 .container {
+  position: absolute;
+  bottom: 10px;
+  top: 190px;
+  left: 150px;
+  right: 0;
+  text-align: center;
+  padding: 0 15px;
+}
+#experience4 h1 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #543c13;
+  font-family: 'ZCOOL XiaoWei',serif;
+}
+#experience4 input[type="text"] {
+    background-color: #F5DEB3;
+    border: 4px;
+    border-radius: 5px;
+    padding-left: 1em;
+    width: 20em;
+    height: 4em;
+    margin-bottom: 1.4em;
+    font-size: 10px;
+}
+/*heritage--*/
+#experience5{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("image/heritage.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  position: relative;
+}
+#heritage{
+  position: absolute;
+  bottom: 10px;
+  top: 150px;
+  left: 100px;
+  right: 0;
+  text-align: center;
+  padding: 0 15px;
+}
+#experience5 .container {
+  position: absolute;
+  bottom: 5px;
+  top: 650px;
+  left: 400px;
+  right: 100px;
+  text-align: center;
+  padding: 0 15px;
+}
+#experience5 h1 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #543c13;
+  font-family: 'ZCOOL XiaoWei',serif;
+}
+#experience5 input[type="text"] {
+  background-color: #F5DEB3;
+  border: 4px;
+  border-radius: 5px;
+  padding-left: 1em;
+  width: 60em;
+  height: 10em;
+  margin-bottom: 1.4em;
+  font-size: 10px;
+  text-align: center;
+}
+
+
+/*deal--*/
+#experience6{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("image/deal.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  position: relative;
+}
+#experience6 .container {
+  position: absolute;
+  bottom: 10px;
+  top: 250px;
+  right:150px;
+  text-align: center;
+  padding: 0 15px;
+}
+#experience6 h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #543c13;
+  font-family: 'ZCOOL XiaoWei',serif;
+}
+#experience6 input[type="text"] {
+   background-color: #F5DEB3;
+   border: 4px;
+   border-radius: 5px;
+   padding-left: 1em;
+   width: 20em;
+   height: 4em;
+   margin-bottom: 1.4em;
+   font-size: 10px;
+}
+
+button{
+	 background-color: #8C7853;
+	 color:white;
+   width: 200px;
+	 height: 45px;
+   border:0;
+   font-size: 16px;
+   box-sizing: content-box;
+   border-radius: 35px;
+   position: relative;
+   bottom: 10px;
+   top: 80px;
+   left:600px;
+   right:40px;
+}
+button:hover{
+	 background-color: #543c13;
+}
+#result{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("image/report.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  position: relative;
+}
+#summary p {
+  text-align:center;
+  color: #543c13;
+  font-size: 15px;
+  position:absolute;
+  bottom: 0px;
+  top: 720px;
+  left: 330px;
+  font-family: 'Ma Shan Zheng', cursive;
+}
+#tst1 h1{
+  text-align: center;
+  color: #543c13;
+  font-size: 25px;
+  font-weight:15;
+  position:relative;
+  bottom: 300px;
+  top: 130px;
+  right: 500px;
+  font-family: 'ZCOOL XiaoWei', serif;
+  line-height: 60px;
+}
+#tst2 h1{
+  text-align: center;
+  color: #543c13;
+  font-size: 25px;
+  font-weight:15;
+  position:relative;
+  bottom: 260px;
+  left: 400px;
+  font-family: 'ZCOOL XiaoWei', serif;
+  line-height: 60px;
+}
