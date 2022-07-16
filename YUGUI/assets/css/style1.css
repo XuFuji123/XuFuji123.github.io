@@ -4,7 +4,6 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -30,10 +29,12 @@ h2 {
   font-family: 'STZhongsong', cursive;
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
   font-family: 'STZhongsong', cursive;
 }
-
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -80,9 +81,9 @@ h3, h4, h5, h6 {
   height: 100px;
   transition: all 0.5s;
   z-index: 997;
-  background-color:#f7e9d4 !important;
+  background-color: #f7e9d4 !important;
   box-shadow: 0 4px 10px -3px rgba(234, 222, 196, 0.8);
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 #header .logo h1 {
@@ -92,10 +93,10 @@ h3, h4, h5, h6 {
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
-
 }
 
-#header .logo h1 a, #header .logo h1 a:hover {
+#header .logo h1 a,
+#header .logo h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -104,7 +105,7 @@ h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
   max-height: 10px;
-  height:1rem;
+  height: 1rem;
   width: inherit;
 }
 
@@ -122,13 +123,14 @@ h3, h4, h5, h6 {
   width: 100%;
 }
 
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.nav-menu > ul > li {
+.nav-menu>ul>li {
   position: relative;
   white-space: nowrap;
   float: left;
@@ -144,20 +146,20 @@ h3, h4, h5, h6 {
   padding: 0 20px;
 }
 
-
 .nav-menu a {
   display: block;
   position: relative;
-  color:#543c13;
+  color: #543c13;
   padding: 15px 70px;
   transition: 0.3s;
   font-size: 20px;
   font-family: "华文中宋", serif;
   text-decoration: none;
-
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active>a,
+.nav-menu li:hover>a {
   color: #543c13;
   text-decoration: none;
   font-family: "华文中宋", serif;
@@ -177,7 +179,7 @@ h3, h4, h5, h6 {
   transition: ease all 0.3s;
 }
 
-.nav-menu .drop-down:hover > ul {
+.nav-menu .drop-down:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -195,11 +197,13 @@ h3, h4, h5, h6 {
   color: #151515;
 }
 
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active>a,
+.nav-menu .drop-down ul li:hover>a {
   color: #c5b476;
 }
 
-.nav-menu .drop-down > a:after {
+.nav-menu .drop-down>a:after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 5px;
@@ -210,23 +214,22 @@ h3, h4, h5, h6 {
   left: calc(100% - 30px);
 }
 
-.nav-menu .drop-down .drop-down:hover > ul {
+.nav-menu .drop-down .drop-down:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
 }
 
-.nav-menu .drop-down .drop-down > a {
+.nav-menu .drop-down .drop-down>a {
   padding-right: 35px;
 }
 
-.nav-menu .drop-down .drop-down > a:after {
+.nav-menu .drop-down .drop-down>a:after {
   content: "\eaa0";
   font-family: IcoFont;
   position: absolute;
   right: 15px;
 }
-
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
@@ -279,12 +282,14 @@ h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover,
+.mobile-nav .active>a,
+.mobile-nav li:hover>a {
   color: #c5ab76;
   text-decoration: none;
 }
 
-.mobile-nav .drop-down > a:after {
+.mobile-nav .drop-down>a:after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 10px;
@@ -292,11 +297,11 @@ h3, h4, h5, h6 {
   right: 15px;
 }
 
-.mobile-nav .active.drop-down > a:after {
+.mobile-nav .active.drop-down>a:after {
   content: "\eaa1";
 }
 
-.mobile-nav .drop-down > a {
+.mobile-nav .drop-down>a {
   padding-right: 35px;
 }
 
@@ -338,28 +343,45 @@ h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
-  width: 100%;
-  height: 100vh;
-  background: url("../img/main/HERO.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  position: relative;
-  z-index: 1;
-  padding: 600px 0px 0px 660px;
+@media screen and (min-width: 700px) {
+  #hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/main/HERO.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    padding: 600px 0px 0px 660px;
+  }
 }
 
+@media screen and (min-width: 300px) {
+  #hero {
+    width: 100%;
+    /* height: 100vh; */
+    /* background: url("../img/main/HERO.jpg"); */
+    background-size: 100% 100%;
+    background-position: center;
+    /* background-attachment: fixed; */
+    position: relative;
+    z-index: 1;
+    /* padding: 600px 0px 0px 660px; */
+  }
+
+  .deal {
+    /* text-align: right; */
+  }
 }
 
-#hero::after{
-  content:"";
+#hero::after {
+  content: "";
   position: absolute;
   width: 100%;
-  height:100%;
-  top:0;
+  height: 100%;
+  top: 0;
   left: 0;
-
   z-index: -1;
 }
 
@@ -376,11 +398,6 @@ h3, h4, h5, h6 {
   text-align: center;
   padding: 0 15px;
 }
-
-
-
-
-
 
 #hero h3 {
   color: #000;
@@ -402,7 +419,6 @@ h3, h4, h5, h6 {
   margin: 10px;
   bottom: 0px;
   color: #543c13;
-
   text-decoration: none;
 }
 
@@ -422,6 +438,7 @@ h3, h4, h5, h6 {
     font-size: 28px;
     line-height: 36px;
   }
+
   #hero h2 {
     line-height: 22px;
   }
@@ -466,48 +483,47 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-.about{
+.about {
   background: url("../img/main/HERO2.jpg");
+  background-size: 100% 100%;
 }
 
 .about .section-title h2 {
   font-weight: 600;
   font-size: 60px;
   letter-spacing: 10px;
-  color: ##6d5231;
+  color: #6d5231;
 }
 
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: ##6d5231;
+  color: #6d5231;
 }
 
 .about .content p {
   font-weight: 200;
   font-size: 10px;
-  color: ##6d5231;
+  color: #6d5231;
 }
 
 .about .content ul {
   list-style: none;
   padding: 15;
-
 }
 
 .about .content ul li {
   padding: 20px;
   display: flex;
   align-items: flex-start;
-  color: ##6d5231;
-
+  color: #6d5231;
 }
 
 .about .content ul i {
   font-size: 30px;
   padding: 2px 6px 0 0;
-  color: ##6d5231;
-    opacity: 0;
+  color: #6d5231;
+  opacity: 0;
 }
 
 .about .content p:last-child {
@@ -515,41 +531,68 @@ section {
 }
 
 /* 滑动页面 */
-.bg-light{
+.bg-light {
   background-color: transparent !important;
 }
-.carousel-item{
-  height: 100vh;
-  min-height: 300px;
-background-size: cover;
-}
-.carousel-caption{
-  top: 170px;
-  right:800px;
+
+.carousel-item {
+  /* height: 100vh; */
+  /* min-height: 300px; */
+  background-size: cover;
 }
 
-.carousel-caption1{
+.carousel-caption {
+  width: 200px;
+  position: absolute;
+  top: 10%;
+  /* top: 170px; */
+  right: 800px;
+  left:20% !important;
+}
+
+.prev {
+  width: 100%;
+}
+
+.carousel-caption1 {
   margin-left: 20%;
   top: 170px;
-
 }
 
-
-.carousel-caption  h5{
-  font-size: 45px;
+.carousel-caption h5 {
   letter-spacing: 2px;
   margin-top: 25px;
   color: #6d5231;
 }
 
-.carousel-caption1  h5{
-  font-size: 45px;
+@media screen and (max-width: 2700px) {
+  .carousel-caption h5 {
+    font-size: 45px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .carousel-caption h5 {
+    font-size: 20px;
+  }
+}
+
+.carousel-caption1 h5 {
   letter-spacing: 2px;
   margin-top: 25px;
   color: #6d5231;
 }
 
-.carousel-caption p{
+.carousel-caption p {
+  width: 100%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+  color: #6d5231;
+}
+
+.carousel-caption1 p {
   width: 60%;
   margin: auto;
   font-size: 18px;
@@ -557,15 +600,18 @@ background-size: cover;
   color: #6d5231;
 }
 
-.carousel-caption1 p{
-  width: 60%;
-  margin: auto;
-  font-size: 18px;
-  line-height: 1.9;
+.carousel-caption a {
+  background: url("../img/main/press.png");
+  background-size: contain;
+  text-decoration: none;
+  padding: 0px 30px;
+  display: inline-block;
   color: #6d5231;
+  margin-top: 15px;
+  min-width: 140px;
 }
 
-.carousel-caption a{
+.carousel-caption1 a {
   background: url("../img/main/press.png");
   background-size: contain;
   text-decoration: none;
@@ -575,17 +621,7 @@ background-size: cover;
   margin-top: 15px;
 }
 
-.carousel-caption1 a{
-  background: url("../img/main/press.png");
-  background-size: contain;
-  text-decoration: none;
-  padding: 0px 30px;
-  display: inline-block;
-  color: #6d5231;
-  margin-top: 15px;
-}
 /* 滑动页结束 */
-
 /* footer开始 */
 #footer {
   background: url("../img/footer-bg.jpg") center center no-repeat;
