@@ -152,15 +152,14 @@ h6 {
   color: #543c13;
   padding: 15px 70px;
   transition: 0.3s;
-  font-size: 20px;
+  font-size: 1.5rem;
   font-family: "华文中宋", serif;
   text-decoration: none;
 }
 
-.nav-menu a:hover,
-.nav-menu .active>a,
-.nav-menu li:hover>a {
-  color: #543c13;
+.nav-menu a:hover {
+  color: #000;
+  font-size: 2rem;
   text-decoration: none;
   font-family: "华文中宋", serif;
 }

@@ -54,7 +54,7 @@
           <li class="nav-logo"><a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a></li>
 
           <li><a href="作品推荐.html">作品推荐</a></li>
-          <li><a href="天堂信箱.html">天堂信箱</a></li>
+          <li class="active"><a href="天堂信箱.html">天堂信箱</a></li>
 
 
         </ul>
@@ -101,17 +101,7 @@
                 <div class="validate"></div>
               </div>
               <div class="col-md-6 form-group">
-                <input type="text" class="form-control" name="email" id="jijianemail" placeholder="寄件人地址" />
-                <div class="validate"></div>
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="shoujianname" placeholder="收件人" />
-                <div class="validate"></div>
-              </div>
-              <div class="col-md-6 form-group">
-                <input type="text" class="form-control" name="email" id="shoujianemail" placeholder="收件人地址" />
                 <div class="validate"></div>
               </div>
             </div>
@@ -217,7 +207,7 @@
 
       <div class="section-title">
         <h2>留言板</h2>
-        <p>在这里，留下你对TA的思念</p>
+        <p>在这里，留下你的观点</p>
       </div>
 
       <div class="row">
@@ -269,9 +259,7 @@
     var num = 0
 function send(){
     var $jijianname=document.getElementById("jijianname").value;
-    var $jijianemail=document.getElementById("jijianemail").value;
     var $shoujianname=document.getElementById("shoujianname").value;
-    var $shoujianemail=document.getElementById("shoujianemail").value;
     var $nian=document.getElementById("nian").value;
     var $yue=document.getElementById("yue").value;
     var $ri=document.getElementById("ri").value;
@@ -288,9 +276,7 @@ function send(){
     document.getElementById('shoujianxiang').appendChild(clc);
 
     document.getElementById("jijianname").value="";
-    document.getElementById("jijianemail").value="";
     document.getElementById("shoujianname").value="";
-    document.getElementById("shoujianemail").value="";
     document.getElementById("nian").value="";
     document.getElementById("yue").value="";
     document.getElementById("ri").value="";
